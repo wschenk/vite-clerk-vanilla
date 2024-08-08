@@ -19,33 +19,13 @@
       </div>
     </header>
     <div id="app" class="container mx-auto p-4">
-      <h1 class="text-4xl font-bold text-center mb-4">Tailwind CSS Features</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="p-6 bg-white rounded-lg shadow-md">
-          <h2 class="text-2xl font-semibold mb-2">Responsive Design</h2>
-          <p class="text-gray-700">
-            Resize the window to see the layout change.
-          </p>
-        </div>
-        <div class="p-6 bg-white rounded-lg shadow-md">
-          <h2 class="text-2xl font-semibold mb-2">Utility Classes</h2>
-          <p class="text-gray-700">
-            Tailwind provides low-level utility classes to build custom designs.
-          </p>
-        </div>
-        <div class="p-6 bg-white rounded-lg shadow-md">
-          <h2 class="text-2xl font-semibold mb-2">Flexbox & Grid</h2>
-          <p class="text-gray-700">
-            Easily create complex layouts with flexbox and grid utilities.
-          </p>
-        </div>
-        <div class="p-6 bg-white rounded-lg shadow-md">
-          <h2 class="text-2xl font-semibold mb-2">Customization</h2>
-          <p class="text-gray-700">
-            Tailwind can be customized to fit your design needs.
-          </p>
-        </div>
-      </div>
+      <button
+        id="main-button"
+        class="bg-green-500 text-white px-4 py-2 rounded"
+      >
+        Click Me
+      </button>
+      <div id="results" class="mt-4"></div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
